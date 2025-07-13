@@ -2,13 +2,14 @@ export default function ContactForm() {
   return (
     <section id="contact" className="py-16 px-4 bg-gray-100 text-gray-800">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-primary text-center mb-8">Contact Us</h2>
+        <h2 className="text-3xl font-bold text-primary text-center mb-8">Book Now</h2>
 
-        <form className="bg-white shadow-md rounded-lg p-8 space-y-6">
+        <form action= "https://formspree.io/f/mblkrdok" method="POST" className="bg-white shadow-md rounded-lg p-8 space-y-6">
           {/* Full Name */}
           <div>
             <label className="block mb-2 text-sm font-semibold">Full Name</label>
             <input
+            name="fullname"
               type="text"
               placeholder="Enter your name"
               className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-accent"
@@ -20,6 +21,7 @@ export default function ContactForm() {
           <div>
             <label className="block mb-2 text-sm font-semibold">Email Address</label>
             <input
+            name="email"
               type="email"
               placeholder="Enter your email"
               className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-accent"
@@ -31,6 +33,7 @@ export default function ContactForm() {
           <div>
             <label className="block mb-2 text-sm font-semibold">Phone Number</label>
             <input
+            name="phone"
               type="tel"
               placeholder="Enter your phone"
               className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-accent"
@@ -41,6 +44,7 @@ export default function ContactForm() {
           <div>
             <label className="block mb-2 text-sm font-semibold">Tour Interested In</label>
            <select
+           name="tour"
   className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-accent"
   required
 >
@@ -72,6 +76,7 @@ export default function ContactForm() {
           <div>
             <label className="block mb-2 text-sm font-semibold">Number of Persons</label>
             <input
+            name="persons"
               type="number"
               min="1"
               placeholder="e.g., 2"
@@ -82,8 +87,10 @@ export default function ContactForm() {
 
           {/* Preferred Travel Date (Optional) */}
           <div>
+
             <label className="block mb-2 text-sm font-semibold">Preferred Travel Date</label>
             <input
+            name="traveldate"
               type="date"
               className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-accent"
             />
@@ -93,6 +100,7 @@ export default function ContactForm() {
           <div>
             <label className="block mb-2 text-sm font-semibold">Message</label>
             <textarea
+            name="Message"
               rows="5"
               placeholder="Write your message..."
               className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-accent"
