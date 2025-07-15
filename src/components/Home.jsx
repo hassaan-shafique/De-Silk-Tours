@@ -3,10 +3,8 @@ export default function Hero() {
     <section id="home"
       className="relative bg-cover bg-center h-[90vh] text-white"
       style={{
-        backgroundImage:
-          "url('public/home.jpg')",
-      }}
-    >
+  backgroundImage: "url('/home.jpg')",
+}}>
       <div className="bg-black bg-opacity-60 absolute inset-0" />
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold">

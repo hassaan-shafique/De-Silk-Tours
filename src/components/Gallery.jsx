@@ -5,25 +5,25 @@ const Gallery = () => {
     {
       title: "Hunza & Skardu",
       images: [
-        "public/Hunza.jpg",
-         "public/neelum.jpg",
-        "public/neelum.jpg",
+        "/Hunza.jpg",
+         "/neelum.jpg",
+        "/neelum.jpg",
       ],
     },
     {
       title: "Hunza",
       images: [
-        "public/neelum.jpg",
-        "public/neelum.jpg",
-       "public/neelum.jpg",
+        "/neelum.jpg",
+        "/neelum.jpg",
+       "/neelum.jpg",
       ],
     },
     {
       title: "Naran",
       images: [
-       "public/neelum.jpg",
-        "public/neelum.jpg",
-        "public/neelum.jpg",
+       "/neelum.jpg",
+        "/neelum.jpg",
+        "/neelum.jpg",
       ],
     },
   ];
