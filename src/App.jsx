@@ -17,7 +17,6 @@ function App() {
       <AboutUs/>
       <Services/>
       <TourPackages/>
-      <Gallery/>
       <Testimonials/>
       <ContactForm/>
       <Footer/>

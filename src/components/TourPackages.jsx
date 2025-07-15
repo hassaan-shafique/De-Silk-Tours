@@ -6,7 +6,7 @@ const packages = [
     title: "Hunza & Skardu",
     duration: "8 Days / 7 Nights",
     price: "PKR 35,500/-",
-    image: "public/Hunza.jpg",
+    image: "/Hunza.jpg",
     description:`
 Embark on a breathtaking journey to the northern jewels of Pakistan — Hunza & Skardu. From the serene valleys of Hunza to the majestic landscapes of Skardu, this 8-day adventure is perfect for nature lovers, photography enthusiasts, and anyone seeking peace and adventure.
 </br>
@@ -132,7 +132,7 @@ DAY 8
     title: "Astore/Minimarg & Deosai",
     duration: "6 Days / 5 Nights",
     price: "PKR 42,500/-",
-    image: "public/Deosai.jpg",
+    image: "/Deosai.jpg",
     description:`
 Explore the untouched beauty of Northern Pakistan with our Astore, Minimarg, and Deosai tour. This 6-day journey offers a perfect blend of adventure, serenity, and scenic landscapes. From lush green valleys to the world's second highest plateau, this tour is crafted for nature lovers and explorers.
 
@@ -222,7 +222,7 @@ Book now and embark on a journey to the roof of the world with De Silk Tours!`,
     title: "Skardu Valley",
     duration: "6 Days / 5 Nights",
     price: "PKR 29,500/-",
-    image: "public/skardu.jpg",
+    image: "/skardu.jpg",
     description:`
 Discover the breathtaking beauty of Skardu Valley — a land of towering mountains, crystal-clear lakes, and timeless culture. This 6-day adventure takes you deep into the heart of Gilgit-Baltistan, where you'll experience nature in its purest form.
 
@@ -233,7 +233,8 @@ Discover the breathtaking beauty of Skardu Valley — a land of towering mountai
 • Short stay at Bhera/Mian G.
 • Reach Islamabad.
 
-Day 01: Islamabad – naran – Chilas 
+Day 01: 
+Islamabad – naran – Chilas 
 • Pick Participants from Islamabad.
 • Move towards Naran.
 • Breakfast at Balakot.
@@ -241,7 +242,8 @@ Day 01: Islamabad – naran – Chilas
 • Short stay at Naran and Babusar Top.
 • Reach Chilas. Dinner and overnight stay at Hotel. (1st Night stay)
 
-Day 02: Chilas – Jaglot – Stak Nala – Shangrilla – Upper Kachura – Skardu
+Day 02: 
+Chilas – Jaglot – Stak Nala – Shangrilla – Upper Kachura – Skardu
 • Breakfast at hotel.
 • Move towards Skardu.
 • Stopover at Nanga Parbat view point.
@@ -255,7 +257,8 @@ Day 02: Chilas – Jaglot – Stak Nala – Shangrilla – Upper Kachura – Ska
 • Reach Skardu & transfer to Hotel.
 • Enjoy Dinner & Overnight stay at Hotel. (2nd Night stay)
 
-Day 03: Skardu – Basho Valley – Sultanabad Basho
+Day 03: 
+Skardu – Basho Valley – Sultanabad Basho
 • Breakfast at Hotel.
 • Drive towards Basho Valley.
 • Short stay at Basho Suspension Bridge.
@@ -267,7 +270,8 @@ Day 03: Skardu – Basho Valley – Sultanabad Basho
 • Visit Skardu Bazar for shopping.
 • Overnight stay in Hotel. (3rd Night stay)
 
-Day 04: Skardu – Manthokha Waterfall – Cold Desert – Shigar Valley
+Day 04: 
+Skardu – Manthokha Waterfall – Cold Desert – Shigar Valley
 • Breakfast at Hotel.
 • Move towards Manthokha Waterfall.
 • Visit Mehdiabad Valley, Sermik Valley.
@@ -282,14 +286,16 @@ Day 04: Skardu – Manthokha Waterfall – Cold Desert – Shigar Valley
 • Enjoy BBQ Dinner & Bonfire.
 • Overnight stay at Hotel. (4th Night stay)
 
-Day 05: Skardu – Chilas
+Day 05:
+ Skardu – Chilas
 • Breakfast at hotel.
 • Departure towards Besham.
 • Stopover at Astak Nala.
 • Continue drive towards Chilas.
 • Reach Chilas. Dinner & Overnight stay at hotel. (5th Night stay)
 
-Day 06: Chilas – Islamabad – Lahore
+Day 06: 
+Chilas – Islamabad – Lahore
 • Breakfast at Hotel.
 • Departure towards Home.
 • Travel all day towards Islamabad/Lahore.
@@ -324,7 +330,7 @@ Whether you're a nature enthusiast, a couple looking for a romantic getaway, or 
     title: "Hunza & Khunjrab Pass",
     duration: "5 Days / 4 Nights",
     price: "PKR 25,999/-",
-    image: "public/khunjrab.jpg",
+    image: "/khunjrab.jpg",
     description:`
 Embark on a scenic journey to the majestic Hunza Valley and the world’s highest paved international border – Khunjerab Pass. This 5-day tour is a perfect blend of culture, adventure, and breathtaking landscapes.
 
@@ -397,7 +403,7 @@ From awe-inspiring mountains to rich cultural heritage, this tour is ideal for n
     title: "Fairy Meadows & Beyal Camp",
     duration: "5 Days / 4 Nights",
     price: "PKR 25,999/-",
-    image: "public/fairy.jpg",
+    image: "/fairy.jpg",
     description: `
 Escape into one of the most enchanting landscapes in the world — Fairy Meadows. Nestled beneath the majestic Nanga Parbat, this tour takes you through lush green meadows, alpine forests, and panoramic mountain views with a chance to camp under the stars near the “Killer Mountain.”
 
@@ -470,7 +476,7 @@ Whether you're an adventure seeker or nature enthusiast, this journey offers a s
     title: "Neelum Valley/ Ratti Gali Lake/ Taobat",
     duration: "5 Days / 4 Nights",
     price: "PKR 25,999/-",
-    image: "public/ratigali.jpg",
+    image: "/ratigali.jpg",
     description:`Explore the enchanting beauty of Azad Kashmir with our Neelum Valley, Ratti Gali Lake, and Taobat tour. This 5-day journey offers lush green valleys, glacial rivers, and one of Pakistan’s most scenic alpine lakes. Perfect for nature lovers and photography enthusiasts.
 
 *Inclusions:*
@@ -496,7 +502,7 @@ Short Stay at Authmuqam
 Reach Sharda for Night stay 
 Wadi Resort Sharda 
 
-Day 02
+Day 02:
 Breakfast 8:00 am
 Leave for Taobutt on Jeeps
 Stopover at JamGarh Waterfall
@@ -505,7 +511,7 @@ Visit Taobutt Bala ( Roadside Hiking 30-40 minuts)
 Night Stay Taobutt 
 Corner View/Neelum View
 
-Day 03
+Day 03:
 Breakfast 7:00 am
 Travel Back To Kel
 Cable car ride + 30 minuts Hiking to Reach Arangkel 
@@ -513,7 +519,7 @@ Visit Arangkel Surroundings
 Night Stay Arangkel
 Chinar/2nd Home 
 
-Day 04
+Day 04:
 Early Wakeup call 
 Reach Back to Sharda till 8:00 am 
 Breakfast at Sharda 
@@ -525,7 +531,7 @@ Reach back to Keran in Night
 Night Stay Keran 
 Highland/Twinhill
 
-Day 05
+Day 05:
 Breakfast  8:00 am
 Travel To Lahore
 Visit  Kutton waterfall
@@ -540,7 +546,7 @@ This tour is a perfect blend of adventure, serenity, and cultural richness. Book
     title: "Kashmir/Arang Kel & Taobat",
     duration: "4 Days / 3 Nights",
     price: "PKR 22,999/-",
-    image: "public/neelum.jpg",
+    image: "/neelum.jpg",
     description:`Experience the breathtaking beauty of Azad Kashmir with our exclusive Arang Kel and Taobat tour. A perfect escape into nature, this 4-day journey takes you through lush green meadows, snow-covered peaks, and charming wooden villages along the Neelum River.
 
 *Inclusions:*
@@ -557,11 +563,13 @@ This tour is a perfect blend of adventure, serenity, and cultural richness. Book
 - Jeep & Horse riding or porters in Arang Kel
 
 *Itinerary:*
-- Day 0 – Departure from Lahore
+- Day 0 – 
+Departure from Lahore
 Night departure from Lahore (Thokar Niaz Baig)
 Overnight travel to Islamabad
 Karachi clients can join from Lahore or Islamabad
-Day 1 – Muzaffarabad to Sharda
+Day 1 –
+ Muzaffarabad to Sharda
 Pickup from Islamabad at 4:00 AM
 Breakfast stop at Muzaffarabad
 Visit Dhani Waterfall
@@ -569,7 +577,8 @@ Tea break at Kutton Waterfall
 Continue drive along Neelum River to Sharda
 Sightseeing in Sharda
 Night stay at hotel in Sharda
-Day 2 – Taobat & Halmat Jeep Safari
+Day 2 – 
+Taobat & Halmat Jeep Safari
 Breakfast at 7:00 AM
 Shift to 4x4 jeeps
 Depart for Taobat via scenic route
@@ -577,7 +586,8 @@ Visit Jamgarh Waterfall
 Explore Upper Taobat & Halmat
 Return in evening
 Night stay at hotel in Taobat
-Day 3 – Kel & Arang Kel Trek
+Day 3 – 
+Kel & Arang Kel Trek
 Breakfast at 8:00 AM
 Jeep ride to Kel
 Doli ride across river
@@ -585,7 +595,8 @@ Trek to Arang Kel (approx. 40 minutes)
 Explore the village and surrounding beauty
 Return to Sharda
 Night stay in hotel at Sharda
-Day 4 – Return to Lahore
+Day 4 – 
+Return to Lahore
 Breakfast and check-out
 Stop at Kutton Waterfall (1.5 hours)
 Drive back to Islamabad
@@ -598,7 +609,7 @@ This tour is ideal for families, couples, and explorers seeking a peaceful getaw
     title: "Kumrat/Jahaz-banda & Katora Lake",
     duration: "4 Days / 3 Nights",
     price: "PKR 22,999/-",
-    image: "public/Katora.jpg",
+    image: "/Katora.jpg",
     description:`Embark on an adventurous journey to one of Pakistan’s most scenic valleys – Kumrat. This 4-day tour offers a perfect blend of nature, hiking, waterfalls, and alpine lakes surrounded by lush green landscapes.
 
 *Inclusions:*
@@ -657,7 +668,7 @@ Explore the hidden jewel of Khyber Pakhtunkhwa and witness the unspoiled beauty 
     title: "Kumrat Valley",
     duration: "3 Days / 2 Nights",
     price: "PKR 15,999/-",
-    image: "public/Kumrat.jpg",
+    image: "/Kumrat.jpg",
     description:`Experience the raw and untouched beauty of Kumrat Valley, a hidden gem in Khyber Pakhtunkhwa. This 3-day trip is perfect for nature enthusiasts, offering riverside camping, pine forests, and refreshing waterfalls.
 
 *Inclusions:*
@@ -717,7 +728,7 @@ Reconnect with nature in the peaceful valleys of Kumrat. Whether you’re a phot
     title: "Naran & Babusar Top",
     duration: "3 Days / 2 Nights",
     price: "PKR 15,999/-",
-    image: "public/Babusar.jpg",
+    image: "/Babusar.jpg",
     description:`Escape to the majestic Kaghan Valley with our Naran & Babusar Top tour. This 3-day trip is a perfect blend of scenic landscapes, alpine lakes, and panoramic mountain passes, ideal for families, friends, or solo travelers.
 
 *Inclusions:*
@@ -734,9 +745,12 @@ Reconnect with nature in the peaceful valleys of Kumrat. Whether you’re a phot
 - Any extra activity not mentioned in the itinerary
 
 *Itinerary:*
-- *Day 1:* Departure from Islamabad/Lahore – Drive through Hazara Motorway – Reach Naran – Hotel check-in – Explore Naran Bazaar
-- *Day 2:* Early morning visit to Lake Saif-ul-Mulook – After breakfast, journey to Babusar Top via Lulusar Lake and Batakundi – Return to hotel
-- *Day 3:* Breakfast – Visit Kunhar River viewpoint – Start journey back to Islamabad/Lahore
+- *Day 1:* 
+Departure from Islamabad/Lahore – Drive through Hazara Motorway – Reach Naran – Hotel check-in – Explore Naran Bazaar
+- *Day 2:* 
+Early morning visit to Lake Saif-ul-Mulook – After breakfast, journey to Babusar Top via Lulusar Lake and Batakundi – Return to hotel
+- *Day 3:* 
+Breakfast – Visit Kunhar River viewpoint – Start journey back to Islamabad/Lahore
 
 Explore emerald lakes, breathe in the fresh mountain air, and take in some of the most awe-inspiring views of Pakistan on this unforgettable journey to the heart of Kaghan Valley.`,
   },
@@ -745,7 +759,7 @@ Explore emerald lakes, breathe in the fresh mountain air, and take in some of th
     title: "Neelum Valley & Arang Kel",
     duration: "3 Days / 2 Nights",
     price: "PKR 15,999/-",
-    image: "public/arangkel.jpg",
+    image: "/arangkel.jpg",
     description:`Embark on a breathtaking journey to the paradise-like Neelum Valley and the majestic meadows of Arang Kel. This 3-day adventure offers a perfect escape into lush green valleys, crystal-clear rivers, and serene mountain views.
 
 *Inclusions:*
@@ -762,9 +776,12 @@ Explore emerald lakes, breathe in the fresh mountain air, and take in some of th
 - Anything not mentioned in inclusions
 
 *Itinerary:*
-- *Day 1:* Departure from Islamabad/Lahore – Reach Muzaffarabad – Drive along the Neelum River – Visit Keran – Overnight stay in Sharda
-- *Day 2:* Early morning visit to Sharda – Hike or chairlift to Arang Kel (approx. 1-1.5 hour hike) – Explore the stunning village of Arang Kel – Return to Sharda
-- *Day 3:* Breakfast – Visit nearby viewpoints – Departure back to Islamabad/Lahore with sightseeing stops
+- *Day 1:* 
+Departure from Islamabad/Lahore – Reach Muzaffarabad – Drive along the Neelum River – Visit Keran – Overnight stay in Sharda
+- *Day 2:* 
+Early morning visit to Sharda – Hike or chairlift to Arang Kel (approx. 1-1.5 hour hike) – Explore the stunning village of Arang Kel – Return to Sharda
+- *Day 3:* 
+Breakfast – Visit nearby viewpoints – Departure back to Islamabad/Lahore with sightseeing stops
 
 Whether you're a nature lover or looking for a peaceful retreat, this tour to Neelum Valley & Arang Kel promises an unforgettable experience filled with scenic beauty, tranquility, and cultural richness.`,
   },
@@ -773,7 +790,7 @@ Whether you're a nature lover or looking for a peaceful retreat, this tour to Ne
     title: "Neelum Valley & Ratti Gali Lake",
     duration: "3 Days / 2 Nights",
     price: "PKR 15,999/-",
-    image: "public/neelum.jpg",
+    image: "/neelum.jpg",
     description:`Experience the unmatched natural beauty of Neelum Valley and the alpine wonder of Ratti Gali Lake on this 3-day, 2-night adventure. From lush valleys to crystal-clear glacial lakes, this tour is perfect for nature lovers and photography enthusiasts.
 
 *Inclusions:*
@@ -790,26 +807,53 @@ Whether you're a nature lover or looking for a peaceful retreat, this tour to Ne
 - Anything not mentioned in inclusions
 
 *Itinerary:*
-- *Day 1:* Departure from Islamabad/Lahore – Drive through Muzaffarabad – Visit Keran and Sharda – Overnight stay in Sharda
-- *Day 2:* Early breakfast – Jeep ride to Ratti Gali Base Camp – Short hike to Ratti Gali Lake – Explore and enjoy the scenic lake – Return to Sharda
-- *Day 3:* Breakfast – Visit local viewpoints – Return journey with sightseeing en route – Reach Islamabad/Lahore at night
+- *Day 1:* 
+Departure from Islamabad/Lahore – Drive through Muzaffarabad – Visit Keran and Sharda – Overnight stay in Sharda
+- *Day 2:* 
+Early breakfast – Jeep ride to Ratti Gali Base Camp – Short hike to Ratti Gali Lake – Explore and enjoy the scenic lake – Return to Sharda
+- *Day 3:* 
+Breakfast – Visit local viewpoints – Return journey with sightseeing en route – Reach Islamabad/Lahore at night
 
 This tour offers a perfect mix of relaxation and exploration in the lap of northern Pakistan’s natural beauty. Ratti Gali Lake is a sight to behold, with its turquoise waters nestled between snow-capped peaks — a bucket-list destination for every traveler.`,
   },
   {
-    id: 13,
-    title: "Swat/Malam Jabba & Kalam",
-    duration: "3 Days / 2 Nights",
-    price: "PKR 15,999/-",
-    image: "public/malamjabba.jpg",
-    description:"this is the Description of the Swat/Malam Jabba & Kalam Tour",
-  },
+  id: 13,
+  title: "Swat/Malam Jabba & Kalam",
+  duration: "3 Days / 2 Nights",
+  price: "PKR 15,999/-",
+  image: "/malamjabba.jpg",
+  description: `Experience the mesmerizing beauty of Swat Valley with this 3-day tour covering Malam Jabba and Kalam. From snow-covered landscapes to thrilling adventures, this tour is perfect for nature lovers, families, and photography enthusiasts.
+
+✨ **Inclusions:**
+- Comfortable AC transportation (Hiace/Coaster)
+- 2 Nights hotel stay (twin/triple sharing)
+- Daily Breakfast
+- Professional tour guide
+- Bonfire & group activities
+
+🚫 **Exclusions:**
+- Entry tickets (Chairlift, Zipline, Parks)
+- Lunch & Dinner
+- Personal expenses or extras not mentioned
+
+📅 **Day-Wise Itinerary:**
+
+**Day 1:** 
+Departure from Islamabad/Lahore early morning. Travel through the scenic route to **Malam Jabba**. Enjoy chairlift, zipline, and snow activities. Transfer to Swat/Kalam for overnight stay.
+
+**Day 2:** 
+Breakfast at hotel. Full-day exploration of **Kalam Valley**, including **Ushu Forest**, **Mahodand Lake** (if accessible), and other nearby attractions. Return to Kalam for overnight stay.
+
+**Day 3:** 
+Breakfast & checkout. Drive back to Islamabad/Lahore with sightseeing stops en route. Reach back by evening with unforgettable memories.
+
+🌄 Create lasting memories in the Switzerland of Pakistan with De Silk Tours.`},
   {
     id: 14,
     title: "Sharan Forest",
     duration: "2 Days / 1 Nights",
     price: "PKR 12,999/-",
-    image: "public/sharan.jpg",
+    image: "/sharan.jpg",
     description:`Escape into the heart of nature with our 2-day tour to *Sharan Forest*, a hidden gem in the Kaghan Valley known for its dense pine forests, fresh air, and untouched wilderness. This peaceful retreat is ideal for camping lovers and nature explorers.
 
 *Inclusions:*
@@ -849,7 +893,7 @@ Experience the raw beauty of the forest, cool climate, and tranquil environment.
     title: "Shogran Siri/Paye",
     duration: "2 Days / 1 Nights",
     price: "PKR 12,999/-",
-    image: "public/shogran.jpg",
+    image: "/shogran.jpg",
     description: `Embark on a serene getaway to the scenic hill station of *Shogran, nestled in the Kaghan Valley, followed by a thrilling jeep ride to the breathtaking **Siri Paye Meadows*. This 2-day tour is ideal for those seeking nature, peace, and adventure in a short span.
 
 *Inclusions:*
@@ -889,7 +933,7 @@ Shogran and Siri Paye offer a refreshing retreat surrounded by pine forests, alp
     title: "Sharan Forest / Shogran Siri/Paye",
     duration: "1 Day",
     price: "PKR 4800/-",
-    image: "public/siripaye.jpg",
+    image: "/siripaye.jpg",
     description:`Escape into the heart of the Kaghan Valley with this scenic 1-day tour to *Sharan Forest* and *Shogran Siri/Paye Meadows*. Ideal for a weekend getaway or nature retreat, this journey offers unmatched serenity, dense pine forests, and panoramic mountain views.
 
 *Inclusions:*
@@ -918,7 +962,7 @@ Perfect for nature lovers and photography enthusiasts, this trip offers tranquil
     title: "Ganga Choti",
     duration: "1 Day",
     price: "PKR 3800/-",
-    image: "public/ganga.jpg",
+    image: "/ganga.jpg",
     description:`Embark on an adventurous one-day trek to *Ganga Choti, one of the most scenic peaks in the **Bagh District of Azad Kashmir*, standing at 9,989 ft above sea level. This tour is perfect for thrill-seekers, hikers, and nature photographers looking for a quick and stunning escape into the mountains.
 
 *Inclusions:*
@@ -947,7 +991,7 @@ This tour offers majestic panoramic views of the *Himalayas*, peaceful nature tr
     title: "Swat & Malam Jabba",
     duration: "1 Day",
     price: "PKR 4800/-",
-    image: "public/swat.jpg",
+    image: "/swat.jpg",
     description:`Embark on a scenic one-day adventure to the captivating Swat Valley and the famous ski resort of *Malam Jabba*. This tour is perfect for nature lovers, families, and those looking to escape into the serene beauty of northern Pakistan.
 
 *Inclusions:*
@@ -976,7 +1020,7 @@ Enjoy a refreshing getaway surrounded by snow-capped peaks, green valleys, and a
     title: "Mushkpuri Top",
     duration: "1 Day",
     price: "PKR 4500/-",
-    image: "public/mushkpuri.jpg",
+    image: "/mushkpuri.jpg",
     description:`Experience the breathtaking beauty of the *Mushkpuri Top, located at an elevation of around 9,200 feet in the **Galiyat region near Nathia Gali*. This one-day tour is perfect for adventure lovers, couples, and solo travelers seeking a refreshing nature escape.
 
 *Inclusions:*
@@ -1005,7 +1049,7 @@ This tour is ideal for nature lovers and photography enthusiasts. The trail is s
     title: "Muzaffarabad & Pir Chanasi",
     duration: "1 Day",
     price: "PKR 4800/-",
-    image: "public/pirchanasi.jpg",
+    image: "/pirchanasi.jpg",
     description:`Experience a breathtaking journey to *Muzaffarabad, the capital of Azad Kashmir, and the scenic viewpoint of **Pir Chanasi*, known for its panoramic views and serene landscapes. This one-day escape is perfect for nature lovers and peace seekers.
 
 *Inclusions:*

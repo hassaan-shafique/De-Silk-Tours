@@ -34,9 +34,9 @@ We specialize in personalized tours, luxury getaways, and affordable travel pack
     <li>
       <a href="#contact" className="hover:text-accent cursor-pointer">Contact</a>
     </li>
-    <li>
+    {/* <li>
       <a href="#gallery" className="hover:text-accent cursor-pointer">Gallery</a>
-    </li>
+    </li> */}
     <li>
       <a href="#testimonials" className="hover:text-accent cursor-pointer">Testimonials</a>
     </li>

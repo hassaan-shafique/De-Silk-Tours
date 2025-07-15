@@ -22,7 +22,7 @@ export default function Navbar() {
   <li><a href="#about" className="hover:text-primary">About</a></li>
   <li><a href="#services" className="hover:text-primary">Services</a></li>
   <li><a href="#tours" className="hover:text-primary">Tours</a></li>
-  <li><a href="#gallery" className="hover:text-primary">Gallery</a></li>
+  {/* <li><a href="#gallery" className="hover:text-primary">Gallery</a></li> */}
   <li><a href="#testimonials" className="hover:text-primary">Testimonials</a></li>
   <li><a href="#contact" className="hover:text-primary">Contact</a></li>
 
@@ -38,21 +38,28 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Dropdown Menu */}
-      {menuOpen && (
-        <div className="md:hidden bg-white px-4 pb-4">
-         <ul className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-700">
-  <li><a href="#home" className="hover:text-primary">Home</a></li>
-  <li><a href="#about" className="hover:text-primary">About</a></li>
-  <li><a href="#services" className="hover:text-primary">Services</a></li>
-  <li><a href="#tours" className="hover:text-primary">Tours</a></li>
-  <li><a href="#contact" className="hover:text-primary">Contact</a></li>
-
-            <a href="#contact" className="w-full px-4 py-2 bg-accent text-primary rounded-full font-semibold hover:opacity-90">
-              Book Now
-            </a>
-          </ul>
-        </div>
-      )}
+      {/* Mobile Dropdown Menu */}
+{menuOpen && (
+  <div className="md:hidden bg-white px-4 pb-4">
+    <ul className="flex flex-col gap-4 text-sm font-medium text-gray-700">
+      <li><a href="#home" className="hover:text-primary">Home</a></li>
+      <li><a href="#about" className="hover:text-primary">About</a></li>
+      <li><a href="#services" className="hover:text-primary">Services</a></li>
+      <li><a href="#tours" className="hover:text-primary">Tours</a></li>
+      {/* <li><a href="#gallery" className="hover:text-primary">Gallery</a></li> */}
+      <li><a href="#testimonials" className="hover:text-primary">Testimonials</a></li>
+      <li><a href="#contact" className="hover:text-primary">Contact</a></li>
+      <li>
+        <a
+          href="#contact"
+          className="inline-block w-full text-center px-4 py-2 mt-2 bg-accent text-primary rounded-full font-semibold hover:opacity-90"
+        >
+          Book Now
+        </a>
+      </li>
+    </ul>
+  </div>
+)}
     </nav>
   );
 }

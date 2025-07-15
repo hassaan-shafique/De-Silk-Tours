@@ -3,46 +3,52 @@ import { FaStar } from "react-icons/fa";
 
 const reviews = [
   {
-    name: "Ahsan R.",
+    name: "Qurban Ali",
     rating: 5,
-    review: "Had an amazing trip with De Silk Tours! Everything was perfectly arranged, and the experience was unforgettable.",
+    review: "Had a wonderful experience with De Silk Tours! From beginning to end, the team was very professional and made the entire journey smooth and enjoyable.",
   },
   {
-    name: "Fatima K.",
-    rating: 4,
-    review: "Great service and friendly team. Highly recommended for family and honeymoon trips!",
-  },
-  {
-    name: "Ali Z.",
+    name: "Abdullah Shahzad",
     rating: 5,
-    review: "Customized honeymoon tour was beyond our expectations. Thank you for the perfect arrangements!",
+    review: "Excellent service by a highly professional team. The vehicle was clean, comfortable, and exactly as promised. Highly recommended!",
   },
   {
-    name: "Nida S.",
+    name: "Markhor 786",
     rating: 5,
-    review: "Skardu tour was well-organized. The hotel and transport were top-notch!",
+    review: "Fairy Meadows trip was truly breathtaking. De Silk Tours made everything hassle-free and memorable!",
   },
   {
-    name: "Hassan B.",
-    rating: 4,
-    review: "Great experience! Our guide was helpful and professional throughout the trip.",
-  },
-  {
-    name: "Zainab M.",
+    name: "Arslan Anjum",
     rating: 5,
-    review: "Traveled with friends to Fairy Meadows. It was breathtaking, and the service was excellent.",
+    review: "Had an incredible experience traveling to Fairy Meadows with De Silk Tours. Everything was perfectly arranged and well-managed.",
   },
   {
-    name: "Imran A.",
+    name: "Adam Bezar",
     rating: 5,
-    review: "The Neelum Valley trip was amazing. Thank you for the stress-free travel planning!",
+    review: "Best tour agency I’ve traveled with. Their services and professionalism really stood out!",
   },
   {
-    name: "Sadia J.",
+    name: "Wolfie 316",
     rating: 5,
-    review: "Reliable and professional team. I will definitely book my next trip with De Silk Tours.",
+    review: "An uplifting and unforgettable experience! The journey through the meadows was magical, thanks to De Silk Tours.",
   },
+  {
+    name: "Usama Safdar",
+    rating: 5,
+    review: "Visited Fairy Meadows with De Silk Tours and it was the best experience of my life. Highly professional and smooth planning!",
+  },
+  {
+    name: "Muhammad Uzair",
+    rating: 5,
+    review: "Amazing experience! Their services were outstanding and highly recommended for anyone wanting to explore the Northern Areas.",
+  },
+  {
+    name: "Hassaan Shafique",
+    rating: 5,
+    review: "I recently traveled with De Silk Tours and had a fantastic time. Everything from planning to execution was handled perfectly. Highly recommend!",
+  }
 ];
+
 
 const Testimonials = () => {
   return (
