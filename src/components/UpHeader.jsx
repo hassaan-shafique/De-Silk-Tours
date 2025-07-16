@@ -1,5 +1,6 @@
 import { MdEmail } from "react-icons/md";
-import { FaClock, FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaClock, FaFacebookF, FaInstagram, FaWhatsapp ,FaPhoneAlt,
+  FaEnvelope} from "react-icons/fa";
 import { BsTelephoneFill } from "react-icons/bs";
 
 export default function UpHeader() {
@@ -46,6 +47,15 @@ export default function UpHeader() {
             >
               <FaWhatsapp className="hover:text-white cursor-pointer" />
             </a>
+             {/* Phone */}
+  <a href="tel:+923125032502">
+    <FaPhoneAlt className="hover:text-white cursor-pointer" />
+  </a>
+
+  {/* Email */}
+  <a href="mailto:desilktours@gmail.com">
+    <FaEnvelope className="hover:text-white cursor-pointer" />
+  </a>
           </div>
         </div>
       </div>
