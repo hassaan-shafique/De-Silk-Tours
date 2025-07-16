@@ -49,7 +49,7 @@ We specialize in personalized tours, luxury getaways, and affordable travel pack
           <h4 className="text-lg font-semibold mb-3">Contact</h4>
           <p className="text-sm text-gray-300">Email: desilktours@gmail.com</p>
           <p className="text-sm text-gray-300">Phone: +92 3125032502</p>
-          <p className="text-sm text-gray-300">Mon-Sat: 9:00am - 7:00pm</p>
+          <p className="text-sm text-gray-300">24/7 Support</p>
         </div>
 
         {/* Social Media */}

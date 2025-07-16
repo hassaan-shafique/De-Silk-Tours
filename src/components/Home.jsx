@@ -61,7 +61,7 @@ export default function Hero() {
         </h3>
         <a
           href="#contact"
-          className="mt-3 inline-block bg-white text-accent font-semibold px-6 py-2 rounded-full hover:opacity-90 transition"
+          className="mt-3 inline-block bg-primary text-white font-semibold px-6 py-2 rounded-full hover:opacity-90 transition"
         >
           Contact Us Today
         </a>
