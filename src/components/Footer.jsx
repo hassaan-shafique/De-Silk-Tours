@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaWhatsapp ,FaYoutube, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -78,6 +78,17 @@ We specialize in personalized tours, luxury getaways, and affordable travel pack
   rel="noopener noreferrer"
 >
   <FaWhatsapp className="hover:text-white cursor-pointer" />
+</a>
+ <a href="tel:+923125032502">
+    <FaPhoneAlt className="hover:text-white cursor-pointer" />
+  </a>
+
+  {/* Email */}
+  <a href="mailto:desilktours@gmail.com">
+    <FaEnvelope className="hover:text-white cursor-pointer" />
+  </a>
+  <a href="https://www.youtube.com/@desilktours2019" target="_blank" rel="noopener noreferrer">
+  <FaYoutube className="hover:text-white cursor-pointer" />
 </a>
 
 </div>

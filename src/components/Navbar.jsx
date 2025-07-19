@@ -42,16 +42,17 @@ export default function Navbar() {
 {menuOpen && (
   <div className="md:hidden bg-white px-4 pb-4">
     <ul className="flex flex-col gap-4 text-sm font-medium text-gray-700">
-      <li><a href="#home" className="hover:text-primary">Home</a></li>
-      <li><a href="#about" className="hover:text-primary">About</a></li>
-      <li><a href="#services" className="hover:text-primary">Services</a></li>
-      <li><a href="#tours" className="hover:text-primary">Tours</a></li>
+      <li><a href="#home" onClick={toggleMenu} className="hover:text-primary">Home</a></li>
+      <li><a href="#about"  onClick={toggleMenu} className="hover:text-primary">About</a></li>
+      <li><a href="#services" onClick={toggleMenu} className="hover:text-primary">Services</a></li>
+      <li><a href="#tours" onClick={toggleMenu} className="hover:text-primary">Tours</a></li>
       {/* <li><a href="#gallery" className="hover:text-primary">Gallery</a></li> */}
-      <li><a href="#testimonials" className="hover:text-primary">Testimonials</a></li>
-      <li><a href="#contact" className="hover:text-primary">Contact</a></li>
+      <li><a href="#testimonials" onClick={toggleMenu} className="hover:text-primary">Testimonials</a></li>
+      <li><a href="#contact" onClick={toggleMenu} className="hover:text-primary">Contact</a></li>
       <li>
         <a
           href="#contact"
+          onClick={toggleMenu}
           className="inline-block w-full text-center px-4 py-2 mt-2 bg-accent text-primary rounded-full font-semibold hover:opacity-90"
         >
           Book Now

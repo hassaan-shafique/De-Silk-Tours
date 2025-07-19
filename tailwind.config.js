@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        arial: ['Arial', 'sans-serif'],
+      },
       colors: {
         primary: "#001F3F",
         accent: "#FFD700",
