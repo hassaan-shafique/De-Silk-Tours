@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Hero Section */}
       <div
         className="relative bg-cover bg-center h-[90vh] text-white"
-        style={{ backgroundImage: "url('/homee.jpg')" }}
+        style={{ backgroundImage: "url('/home1.jpg')" }}
       >
         <div className="bg-black bg-opacity-60 absolute inset-0" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
