@@ -1,71 +1,103 @@
-import React from "react";
-import { FaMapMarkedAlt, FaHotel, FaHeadset } from "react-icons/fa";
+'use client';
+import React, { useState, useEffect } from 'react';
+import Slider from 'react-slick';
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
-export default function Hero() {
+const imageList = [
+  '/home1.jpg',
+  '/home3.jpg',
+  '/home4.jpg',
+];
+
+// Arrows
+const ArrowLeft = (props) => (
+  <div
+    {...props}
+    className="absolute left-4 top-1/2 transform -translate-y-1/2 z-30 text-white bg-black bg-opacity-50 hover:bg-opacity-70 p-2 rounded-full cursor-pointer"
+  >
+    <FaArrowLeft size={20} />
+  </div>
+);
+
+const ArrowRight = (props) => (
+  <div
+    {...props}
+    className="absolute right-4 top-1/2 transform -translate-y-1/2 z-30 text-white bg-black bg-opacity-50 hover:bg-opacity-70 p-2 rounded-full cursor-pointer"
+  >
+    <FaArrowRight size={20} />
+  </div>
+);
+
+const Home = () => {
+  const [loadedImages, setLoadedImages] = useState({});
+
+  useEffect(() => {
+    imageList.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+      img.onload = () => {
+        setLoadedImages((prev) => ({ ...prev, [src]: true }));
+      };
+    });
+  }, []);
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    cssEase: 'ease-in-out',
+    prevArrow: <ArrowLeft />,
+    nextArrow: <ArrowRight />,
+  };
+
   return (
-    <section id="home" className="bg-white text-gray-800">
-      {/* Hero Section */}
-      <div
-        className="relative bg-cover bg-center h-[90vh] text-white"
-        style={{ backgroundImage: "url('/home1.jpg')" }}
-      >
-        <div className="bg-black bg-opacity-60 absolute inset-0" />
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
-          <p className="text-yellow-300 text-base md:text-lg uppercase tracking-wide font-medium">
-            Trusted Travel Partner in Pakistan
-          </p>
-          <h1 className="text-4xl md:text-6xl font-bold mt-2">
-            Explore Pakistan with De Silk Tours
-          </h1>
-          <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto">
-            Discover the beauty of Pakistan with our expertly crafted custom tours, luxury hotel stays, and premium travel experiences — tailored just for you.
-          </p>
-          <a
-            href="#contact"
-            className="mt-6 px-6 py-3 bg-accent text-primary font-semibold rounded-full hover:bg-yellow-400 transition"
-          >
-            Plan Your Trip
-          </a>
-        </div>
-      </div>
+    <section className="relative w-full h-[90vh] overflow-hidden">
+      <Slider {...settings}>
+        {imageList.map((src, i) => (
+          <div key={i} className="w-full h-[90vh] bg-black">
+            {loadedImages[src] ? (
+              <img
+                src={src}
+                alt={`Slide ${i}`}
+                className="w-full h-[90vh] object-cover"
+              />
+            ) : (
+              <div className="w-full h-[90vh] flex items-center justify-center text-white">
+                Loading...
+              </div>
+            )}
+          </div>
+        ))}
+      </Slider>
 
-      {/* Features Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 text-center max-w-5xl mx-auto px-4">
-        <div>
-          <FaMapMarkedAlt className="text-3xl text-accent mx-auto mb-2" />
-          <h4 className="text-lg font-semibold">Custom Tour Plans</h4>
-          <p className="text-sm text-gray-600">
-            Tailored experiences for individuals and groups
-          </p>
-        </div>
-        <div>
-          <FaHotel className="text-3xl text-accent mx-auto mb-2" />
-          <h4 className="text-lg font-semibold">Luxury Stays</h4>
-          <p className="text-sm text-gray-600">
-            Partnered with premium hotels across destinations
-          </p>
-        </div>
-        <div>
-          <FaHeadset className="text-3xl text-accent mx-auto mb-2" />
-          <h4 className="text-lg font-semibold">24/7 Support</h4>
-          <p className="text-sm text-gray-600">
-            Customer support throughout your journey
-          </p>
-        </div>
-      </div>
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black bg-opacity-40 z-10" />
 
-      {/* Call to Action Strip */}
-      <div className="bg-accent text-primary py-8 px-4 text-center mt-16">
-        <h3 className="text-xl font-bold">
-          Ready for your next adventure?
-        </h3>
+      {/* Text content */}
+      <div className="absolute z-20 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white px-4 max-w-2xl">
+        <p className="text-yellow-300 text-lg font-medium mb-2">
+          Trusted Travel Partner in Pakistan
+        </p>
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+          Explore Pakistan with De Silk Tours
+        </h1>
+        <p className="text-lg md:text-xl mb-6">
+          Discover the beauty of Pakistan with our custom tours, luxury stays,
+          and premium travel experiences.
+        </p>
         <a
           href="#contact"
-          className="mt-3 inline-block bg-primary text-white font-semibold px-6 py-2 rounded-full hover:opacity-90 transition"
+          className="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold px-6 py-3 rounded-full"
         >
-          Contact Us Today
+          Plan Your Trip
         </a>
       </div>
     </section>
   );
-}
+};
+
+export default Home;

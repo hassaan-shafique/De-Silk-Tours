@@ -8,6 +8,9 @@ import Footer from './components/Footer'
 import TourPackages from './components/TourPackages'
 import Gallery from './components/Gallery'
 import Testimonials from './components/Testimonials'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 function App() {
   return (
     <div>
@@ -15,8 +18,9 @@ function App() {
       <Navbar/>
       <Home/>
       <AboutUs/>
-      <Services/>
       <TourPackages/>
+      <Services/>
+      
       <Testimonials/>
       <ContactForm/>
       <Footer/>
