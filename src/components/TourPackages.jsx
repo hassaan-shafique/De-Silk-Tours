@@ -926,59 +926,73 @@ const packages = [
 </div>
 ,
   },
-  {
-    id: 11,
-    title: "Neelum Valley & Arang Kel",
-    duration: "3 Days / 2 Nights",
-    price: "PKR 15,999/-",
-    image: "/arangkel.jpg",
-    description:<div className="text-white font-['Arial'] space-y-4 leading-relaxed">
-  <p>
-    <strong>Embark on a breathtaking journey to the paradise-like Neelum Valley and the majestic meadows of Arang Kel.</strong> This 3-day adventure offers a perfect escape into lush green valleys, crystal-clear rivers, and serene mountain views.
-  </p>
+ {
+  id: 11,
+  title: "Neelum Valley & Arang Kel",
+  duration: "3 Days / 2 Nights",
+  price: "PKR 15,999/-",
+  image: "/arangkel.jpg",
+  description: (
+    <div className="text-white font-[Arial] space-y-4 leading-relaxed">
+      <p>
+        <strong>
+          Embark on a breathtaking journey to the paradise-like Neelum Valley
+          and the majestic meadows of Arang Kel.
+        </strong>{" "}
+        This 3-day adventure offers a perfect escape into lush green valleys,
+        crystal-clear rivers, and serene mountain views.
+      </p>
 
-  <div>
-    <h2 className="text-xl font-bold underline">Inclusions:</h2>
-    <ul className="list-disc list-inside">
-      <li>Comfortable transport (Coaster / Hiace)</li>
-      <li>2 Nights hotel/guesthouse accommodation (Keran/Sharda)</li>
-      <li>Breakfast and Dinner included</li>
-      <li>Local tour guide and trip management</li>
-      <li>Hiking support to Arang Kel</li>
-      <li>Sightseeing of Keran, Sharda, and Arang Kel</li>
-    </ul>
-  </div>
+      <div>
+        <h2 className="text-xl font-bold underline">Inclusions:</h2>
+        <ul className="list-disc list-inside">
+          <li>Comfortable transport (Coaster / Hiace)</li>
+          <li>2 Nights hotel/guesthouse accommodation (Keran/Sharda)</li>
+          <li>Breakfast and Dinner included</li>
+          <li>Local tour guide and trip management</li>
+          <li>Hiking support to Arang Kel</li>
+          <li>Sightseeing of Keran, Sharda, and Arang Kel</li>
+        </ul>
+      </div>
 
-  <div>
-    <h2 className="text-xl font-bold underline">Exclusions:</h2>
-    <ul className="list-disc list-inside">
-      <li>Jeep ride (if needed)</li>
-      <li>Personal expenses (lunch, snacks, porter charges)</li>
-      <li>Anything not mentioned in inclusions</li>
-    </ul>
-  </div>
+      <div>
+        <h2 className="text-xl font-bold underline">Exclusions:</h2>
+        <ul className="list-disc list-inside">
+          <li>Jeep ride (if needed)</li>
+          <li>Personal expenses (lunch, snacks, porter charges)</li>
+          <li>Anything not mentioned in inclusions</li>
+        </ul>
+      </div>
 
-  <div>
-    <h2 className="text-xl font-bold underline">Itinerary:</h2>
-    <ul className="list-disc list-inside">
-      <li>
-        <strong>Day 1:</strong> Departure from Islamabad/Lahore – Reach Muzaffarabad – Drive along the Neelum River – Visit Keran – Overnight stay in Sharda
-      </li>
-      <li>
-        <strong>Day 2:</strong> Early morning visit to Sharda – Hike or chairlift to Arang Kel (approx. 1-1.5 hour hike) – Explore the stunning village of Arang Kel – Return to Sharda
-      </li>
-      <li>
-        <strong>Day 3:</strong> Breakfast – Visit nearby viewpoints – Departure back to Islamabad/Lahore with sightseeing stops
-      </li>
-    </ul>
-  </div>
+      <div>
+        <h2 className="text-xl font-bold underline">Itinerary:</h2>
+        <ul className="list-disc list-inside">
+          <li>
+            <strong>Day 1:</strong> Departure from Islamabad/Lahore – Reach
+            Muzaffarabad – Drive along the Neelum River – Visit Keran –
+            Overnight stay in Sharda
+          </li>
+          <li>
+            <strong>Day 2:</strong> Early morning visit to Sharda – Hike or
+            chairlift to Arang Kel (approx. 1–1.5 hour hike) – Explore the
+            stunning village of Arang Kel – Return to Sharda
+          </li>
+          <li>
+            <strong>Day 3:</strong> Breakfast – Visit nearby viewpoints –
+            Departure back to Islamabad/Lahore with sightseeing stops
+          </li>
+        </ul>
+      </div>
 
-  <p>
-    Whether you're a nature lover or looking for a peaceful retreat, this tour to Neelum Valley & Arang Kel promises an unforgettable experience filled with scenic beauty, tranquility, and cultural richness.
-  </p>
-</div>
-,
-  },
+      <p>
+        Whether you're a nature lover or looking for a peaceful retreat, this
+        tour to Neelum Valley & Arang Kel promises an unforgettable experience
+        filled with scenic beauty, tranquility, and cultural richness.
+      </p>
+    </div>
+  ),
+},
+
   {
     id: 12,
     title: "Neelum Valley & Ratti Gali Lake",
