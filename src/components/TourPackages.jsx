@@ -999,7 +999,7 @@ const packages = [
     duration: "3 Days / 2 Nights",
     price: "PKR 15,999/-",
     image: "/neelum.jpg",
-    description:<div className="font-[Arial] text-gray-800 space-y-6 leading-relaxed">
+    description:<div className="font-[Arial] text-gray-800 space-y-4 leading-relaxed">
   <p>
     Experience the unmatched natural beauty of Neelum Valley and the alpine wonder of <strong>Ratti Gali Lake</strong> on this 3-day, 2-night adventure. From lush valleys to crystal-clear glacial lakes, this tour is perfect for nature lovers and photography enthusiasts.
   </p>
