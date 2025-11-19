@@ -1,78 +1,15 @@
 'use client';
-import React, { useState, useEffect } from 'react';
-import Slider from 'react-slick';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-
-const imageList = [
-  '/home1.jpg',
-  '/home3.jpg',
-  '/home4.jpg',
-];
-
-// Arrows
-const ArrowLeft = (props) => (
-  <div
-    {...props}
-    className="absolute left-4 top-1/2 transform -translate-y-1/2 z-30 text-white bg-black bg-opacity-50 hover:bg-opacity-70 p-2 rounded-full cursor-pointer"
-  >
-    <FaArrowLeft size={20} />
-  </div>
-);
-
-const ArrowRight = (props) => (
-  <div
-    {...props}
-    className="absolute right-4 top-1/2 transform -translate-y-1/2 z-30 text-white bg-black bg-opacity-50 hover:bg-opacity-70 p-2 rounded-full cursor-pointer"
-  >
-    <FaArrowRight size={20} />
-  </div>
-);
+import React from 'react';
 
 const Home = () => {
-  const [loadedImages, setLoadedImages] = useState({});
-
-  useEffect(() => {
-    imageList.forEach((src) => {
-      const img = new Image();
-      img.src = src;
-      img.onload = () => {
-        setLoadedImages((prev) => ({ ...prev, [src]: true }));
-      };
-    });
-  }, []);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 2000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    cssEase: 'ease-in-out',
-    prevArrow: <ArrowLeft />,
-    nextArrow: <ArrowRight />,
-  };
-
   return (
     <section className="relative w-full h-[90vh] overflow-hidden">
-      <Slider {...settings}>
-        {imageList.map((src, i) => (
-          <div key={i} className="w-full h-[90vh] bg-black">
-            {loadedImages[src] ? (
-              <img
-                src={src}
-                alt={`Slide ${i}`}
-                className="w-full h-[90vh] object-cover"
-              />
-            ) : (
-              <div className="w-full h-[90vh] flex items-center justify-center text-white">
-                Loading...
-              </div>
-            )}
-          </div>
-        ))}
-      </Slider>
+      {/* Background Image */}
+      <img
+        src="/image2.jpeg"
+        alt="Home"
+        className="w-full h-[90vh] object-cover"
+      />
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-40 z-10" />

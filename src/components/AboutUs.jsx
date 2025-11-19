@@ -5,7 +5,7 @@ export default function AboutUs() {
         {/* Image */}
         <div className="overflow-hidden rounded-xl shadow-md">
           <img
-            src="/about.png"
+            src="/image2.jpeg"
             alt="About De Silk Tours"
             className="w-full h-full object-cover"
           />
