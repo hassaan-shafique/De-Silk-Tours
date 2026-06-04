@@ -159,7 +159,7 @@ const packages = [
 
   <h3 className="mt-6 text-primary font-semibold">🗓 Day-Wise Itinerary:</h3>
 
-  <h4 className="font-semibold text-gray-700">Day 0 – Pickup from Lahore</h4>
+  <h4 className="font-semibold text-gray-700">Day 0 – Pickup from Lahore.</h4>
   <ul className="list-disc list-inside">
     <li>Pickup from Thokar Niaz Baig, Lahore at 10:30 PM</li>
     <li>Travel overnight towards Islamabad</li>
