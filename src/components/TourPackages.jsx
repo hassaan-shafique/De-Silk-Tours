@@ -150,7 +150,7 @@ const packages = [
     price: "PKR 50,000/-",
     image: "/Deosai.jpg",
     description:<div className="prose max-w-none prose-sm sm:prose lg:prose-lg xl:prose-xl text-gray-800 font-arial">
-  <h2 className="text-primary font-bold">Astore, Minimarg & Deosai Tour Overview</h2>
+  <h2 className="text-primary font-bold">Astore, Minimarg & Deosai Tour Overview.</h2>
   <p>
     Explore the untouched beauty of Northern Pakistan with our Astore, Minimarg, and Deosai tour.
     This 6-day journey offers a perfect blend of adventure, serenity, and scenic landscapes. 
