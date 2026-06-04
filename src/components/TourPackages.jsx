@@ -5,7 +5,7 @@ const packages = [
     id: 1,
     title: "Hunza & Skardu",
     duration: "8 Days / 7 Nights",
-    price: "PKR 35,500/-",
+    price: "PKR 41,500/-",
     image: "/Hunza.jpg",
     description:
 <div className="prose max-w-none prose-sm sm:prose lg:prose-lg xl:prose-xl text-gray-800 font-arial">
@@ -147,7 +147,7 @@ const packages = [
     id: 2,
     title: "Astore/Minimarg & Deosai",
     duration: "6 Days / 5 Nights",
-    price: "PKR 42,500/-",
+    price: "PKR 50,000/-",
     image: "/Deosai.jpg",
     description:<div className="prose max-w-none prose-sm sm:prose lg:prose-lg xl:prose-xl text-gray-800 font-arial">
   <h2 className="text-primary font-bold">Astore, Minimarg & Deosai Tour Overview</h2>
@@ -257,7 +257,7 @@ const packages = [
     id: 3,
     title: "Skardu Valley",
     duration: "6 Days / 5 Nights",
-    price: "PKR 29,500/-",
+    price: "PKR 32,000/-",
     image: "/skardu.jpg",
     description:<div className="prose max-w-none prose-sm sm:prose lg:prose-lg xl:prose-xl text-gray-800 font-[Arial]">
   <h2 className="text-primary font-bold">Skardu Valley Tour Overview</h2>
@@ -362,7 +362,7 @@ const packages = [
     id: 4,
     title: "Hunza & Khunjrab Pass",
     duration: "5 Days / 4 Nights",
-    price: "PKR 25,999/-",
+    price: "PKR 29,500/-",
     image: "/khunjrab.jpg",
     description:<div className="prose max-w-none prose-sm sm:prose lg:prose-lg xl:prose-xl text-gray-800" style={{ fontFamily: 'Arial, sans-serif' }}>
   <p>
@@ -460,7 +460,7 @@ const packages = [
     id: 5,
     title: "Fairy Meadows & Beyal Camp",
     duration: "5 Days / 4 Nights",
-    price: "PKR 25,999/-",
+    price: "PKR 30,000/-",
     image: "/fairy.jpg",
     description: <div className="prose max-w-none prose-sm sm:prose lg:prose-lg xl:prose-xl text-gray-800 font-[Arial]">
   <h2 className="text-primary font-bold">Fairy Meadows Tour Overview</h2>
@@ -558,7 +558,7 @@ const packages = [
     id: 6,
     title: "Neelum Valley/ Ratti Gali Lake/ Taobat",
     duration: "5 Days / 4 Nights",
-    price: "PKR 25,999/-",
+    price: "PKR 30,000/-",
     image: "/ratigali.jpg",
     description:<div className="prose max-w-none prose-sm sm:prose lg:prose-lg xl:prose-xl text-gray-800" style={{ fontFamily: 'Arial, sans-serif' }}>
   <h2 className="text-primary font-bold">Neelum Valley, Ratti Gali & Taobat Tour Overview</h2>
@@ -651,7 +651,7 @@ const packages = [
     id: 7,
     title: "Kashmir/Arang Kel & Taobat",
     duration: "4 Days / 3 Nights",
-    price: "PKR 22,999/-",
+    price: "PKR 25,000/-",
     image: "/neelum.jpg",
     description:<div className="font-[Arial] text-gray-800 space-y-4">
   <h2 className="text-2xl font-bold text-green-700">
@@ -714,7 +714,7 @@ const packages = [
     id: 8,
     title: "Kumrat/Jahaz-banda & Katora Lake",
     duration: "4 Days / 3 Nights",
-    price: "PKR 22,999/-",
+    price: "PKR 26,500/-",
     image: "/Katora.jpg",
     description:<div className="font-[Arial] text-gray-800 space-y-6 leading-relaxed">
   <p className="text-lg font-semibold">
@@ -801,7 +801,7 @@ const packages = [
     id: 9,
     title: "Kumrat Valley",
     duration: "3 Days / 2 Nights",
-    price: "PKR 15,999/-",
+    price: "PKR 21,000/-",
     image: "/Kumrat.jpg",
     description:<div className="font-[Arial] text-gray-800 space-y-4 leading-relaxed">
   <p className="text-lg font-medium">
@@ -882,7 +882,7 @@ const packages = [
     id: 10,
     title: "Naran & Babusar Top",
     duration: "3 Days / 2 Nights",
-    price: "PKR 15,999/-",
+    price: "PKR 18,500/-",
     image: "/Babusar.jpg",
     description:<div className="prose max-w-none prose-sm sm:prose lg:prose-lg xl:prose-xl text-gray-800 font-[Arial]">
   <h2 className="text-primary font-bold">Naran & Babusar Top Tour Overview</h2>
@@ -930,7 +930,7 @@ const packages = [
   id: 11,
   title: "Neelum Valley & Arang Kel",
   duration: "3 Days / 2 Nights",
-  price: "PKR 15,999/-",
+  price: "PKR 18,500/-",
   image: "/arangkel.jpg",
   description: (
     <div className="text-white font-[Arial] space-y-4 leading-relaxed">
@@ -997,7 +997,7 @@ const packages = [
     id: 12,
     title: "Neelum Valley & Ratti Gali Lake",
     duration: "3 Days / 2 Nights",
-    price: "PKR 15,999/-",
+    price: "PKR 18,500/-",
     image: "/neelum.jpg",
     description:<div className="font-[Arial] text-gray-800 space-y-4 leading-relaxed">
   <p>
@@ -1050,7 +1050,7 @@ const packages = [
   id: 13,
   title: "Swat/Malam Jabba & Kalam",
   duration: "3 Days / 2 Nights",
-  price: "PKR 15,999/-",
+  price: "PKR 15,500/-",
   image: "/malamjabba.jpg",
   description: <div className="font-[Arial] text-gray-800 space-y-5 leading-relaxed">
   <p>
@@ -1111,7 +1111,7 @@ const packages = [
     id: 14,
     title: "Sharan Forest",
     duration: "2 Days / 1 Nights",
-    price: "PKR 12,999/-",
+    price: "PKR 14,500/-",
     image: "/sharan.jpg",
     description:<div className="font-[Arial] text-gray-800 space-y-4 leading-relaxed">
   <p>
@@ -1176,7 +1176,7 @@ const packages = [
     id: 15,
     title: "Shogran Siri/Paye",
     duration: "2 Days / 1 Nights",
-    price: "PKR 12,999/-",
+    price: "PKR 14,500/-",
     image: "/shogran.jpg",
     description:   <div className="font-[Arial] text-gray-800 space-y-6 leading-relaxed">
       <p>
@@ -1225,7 +1225,7 @@ const packages = [
     id: 16,
     title: "Sharan Forest / Shogran Siri/Paye",
     duration: "1 Day",
-    price: "PKR 4800/-",
+    price: "PKR 6000/-",
     image: "/siripaye.jpg",
     description:<div className="font-[Arial] space-y-4 text-gray-800">
   <p className="text-lg font-medium">
